@@ -1,0 +1,50 @@
+# Run tests: uv run pytest step2_generation/exercise_2/test_retrieval.py
+
+import logging
+
+from llama_index.core.agent import ReActAgent
+from llama_index.core.tools import FunctionTool
+from step1_retrieval.exercise_2 import retrieve as retrieve_embeddings
+from step2_generation.exercise_1 import preprocess as preprocess_rag
+from tests.test_runner import TestChunk
+from utils.llm_utils import llm
+from utils.types import Chunks, GenerationResult, RetrievalResult
+
+logger = logging.getLogger(__name__)
+
+
+async def preprocess(test_chunks: list[TestChunk]) -> Chunks:
+    """Preprocess chunks using embedding-based preprocessing.
+
+    Uses the same preprocessing from Step 2 Exercise 1 (Simple RAG).
+    """
+    return await preprocess_rag(test_chunks)
+
+
+async def retrieve(question: str, chunks: Chunks, top_k: int = 3) -> RetrievalResult:
+    """Use embedding-based retrieval from Step 1 Exercise 2."""
+    logger.info(question)
+    return await retrieve_embeddings(question, chunks, top_k)
+
+
+async def generate(question: str, chunks: Chunks) -> GenerationResult:
+    """Generate answer using a ReAct agent that autonomously retrieves context.
+
+    Create a ReAct agent with a retrieval tool. The agent decides when and how
+    many times to search the knowledge base (multi-hop retrieval).
+
+    Args:
+        question: The user's question
+        chunks: Preprocessed chunks dictionary
+
+    Returns:
+        GenerationResult with answer from the agent
+
+    Tools available:
+        ReActAgent - Agent that reasons and acts in a loop
+        FunctionTool.from_defaults(async_fn, name, description) - Wrap a function as a tool
+        retrieve(query, chunks, top_k) - Search the knowledge base
+        llm - The language model instance
+    """
+    # TODO: Create a retrieval tool and ReAct agent to answer the question
+    raise NotImplementedError("Students need to implement generate()")

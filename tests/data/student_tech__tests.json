@@ -1,0 +1,504 @@
+[
+  {
+    "query": "When did Instagram launch its short-form video feature?",
+    "expected_chunk_ids": ["chunk_00000"],
+    "expected_chunks": [
+      "Instagram introduced Reels in August 2020 as a direct response to TikTok's growing popularity in short-form video content."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "temporal"]
+  },
+  {
+    "query": "What scripting language powers game creation in Roblox Studio?",
+    "expected_chunk_ids": ["chunk_00017"],
+    "expected_chunks": [
+      "Roblox Studio empowers users to create custom games using Lua scripting and publish them to the platform's marketplace."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "What are the subscriber requirements for YouTube monetization eligibility?",
+    "expected_chunk_ids": ["chunk_00022"],
+    "expected_chunks": [
+      "YouTube creators qualify for monetization after reaching 1,000 subscribers and accumulating 4,000 watch hours within 12 months."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "specificity"]
+  },
+  {
+    "query": "How does AirPods Pro technology reduce unwanted background noise?",
+    "expected_chunk_ids": ["chunk_00026"],
+    "expected_chunks": [
+      "AirPods Pro utilize active noise cancellation by employing external microphones to detect and neutralize ambient environmental sounds."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "paraphrase"]
+  },
+  {
+    "query": "Which platform pioneered disappearing daily content that others later copied?",
+    "expected_chunk_ids": ["chunk_00005"],
+    "expected_chunks": [
+      "Snapchat's Stories feature pioneered the 24-hour ephemeral content format that was later adopted by Instagram and Facebook."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "paraphrase"]
+  },
+  {
+    "query": "What architectural innovation distinguishes the M2 MacBook Air from older models?",
+    "expected_chunk_ids": ["chunk_00027"],
+    "expected_chunks": [
+      "The M2 MacBook Air features Apple Silicon architecture, delivering enhanced performance and extended battery life compared to Intel predecessors."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "How do volunteer moderators organize discussions on Reddit?",
+    "expected_chunk_ids": ["chunk_00006"],
+    "expected_chunks": [
+      "Reddit organizes discussions into subreddits, each with community-specific rules moderated by volunteer users."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "paraphrase"]
+  },
+  {
+    "query": "What machine learning technique enables text-to-image generation?",
+    "expected_chunk_ids": ["chunk_00009"],
+    "expected_chunks": [
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "What are all the revenue streams available to Twitch broadcasters?",
+    "expected_chunk_ids": ["chunk_00023"],
+    "expected_chunks": [
+      "Twitch streamers earn revenue through channel subscriptions, bit donations, and advertisement breaks during live broadcasts."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "enumeration"]
+  },
+  {
+    "query": "What features enable Discord communities to manage permissions and communication channels?",
+    "expected_chunk_ids": ["chunk_00002"],
+    "expected_chunks": [
+      "Discord servers allow communities to organize communication through custom text channels, voice channels, and permission-based roles."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "enumeration"]
+  },
+  {
+    "query": "What techniques do modern smartphones use to improve photograph quality in challenging conditions?",
+    "expected_chunk_ids": ["chunk_00028"],
+    "expected_chunks": [
+      "Modern smartphones employ computational photography techniques, merging multiple exposures to produce superior low-light photographs."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "paraphrase"]
+  },
+  {
+    "query": "What game mechanics require player skill in competitive tactical shooters?",
+    "expected_chunk_ids": ["chunk_00019"],
+    "expected_chunks": [
+      "Valorant combines precise gunplay mechanics with unique agent abilities, requiring both mechanical skill and strategic team coordination."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "paraphrase"]
+  },
+  {
+    "query": "What platform-independent technology distributes audio content across multiple services?",
+    "expected_chunk_ids": ["chunk_00025"],
+    "expected_chunks": [
+      "Podcasts use RSS feeds to distribute audio episodes across multiple platforms like Apple Podcasts, Spotify, and Google Podcasts."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "Which AI image generation tool doesn't require cloud connectivity?",
+    "expected_chunk_ids": ["chunk_00013"],
+    "expected_chunks": [
+      "Stable Diffusion runs locally on consumer hardware, giving users full control over image generation without cloud dependencies."
+    ],
+    "difficulty": "easy",
+    "labels": ["negation", "technical"]
+  },
+  {
+    "query": "What became viral during 2020 that wasn't about short-form videos?",
+    "expected_chunk_ids": ["chunk_00018"],
+    "expected_chunks": [
+      "Among Us became a cultural phenomenon in 2020, combining social deduction gameplay with simple tasks and emergency meetings."
+    ],
+    "difficulty": "easy",
+    "labels": ["negation", "temporal"]
+  },
+  {
+    "query": "What feature did Twitter add in 2022 to combat misinformation?",
+    "expected_chunk_ids": ["chunk_00004"],
+    "expected_chunks": [
+      "Twitter introduced Community Notes in 2022 to allow users to collaboratively add context to potentially misleading posts."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "temporal"]
+  },
+  {
+    "query": "What input capabilities does the Apple Pencil provide for digital artists?",
+    "expected_chunk_ids": ["chunk_00029"],
+    "expected_chunks": [
+      "The Apple Pencil offers pressure sensitivity and tilt detection, enabling precise drawing and note-taking on iPad devices."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "enumeration"]
+  },
+  {
+    "query": "What is the exact per-stream payment range for Spotify artists?",
+    "expected_chunk_ids": ["chunk_00024"],
+    "expected_chunks": [
+      "Spotify pays artists between $0.003 and $0.005 per stream, with payments distributed through record labels and distributors."
+    ],
+    "difficulty": "easy",
+    "labels": ["specificity", "exact_value"]
+  },
+  {
+    "query": "How many watch hours do YouTube creators need for monetization?",
+    "expected_chunk_ids": ["chunk_00022"],
+    "expected_chunks": [
+      "YouTube creators qualify for monetization after reaching 1,000 subscribers and accumulating 4,000 watch hours within 12 months."
+    ],
+    "difficulty": "easy",
+    "labels": ["specificity", "exact_value"]
+  },
+  {
+    "query": "What is Twitter's current name and when did it change?",
+    "expected_chunk_ids": ["chunk_00030"],
+    "expected_chunks": [
+      "X, formerly known as Twitter, rebranded in July 2023 after Elon Musk's acquisition and introduced a paid verification system."
+    ],
+    "difficulty": "easy",
+    "labels": ["recency", "temporal"]
+  },
+  {
+    "query": "What social media app grew fastest in 2023?",
+    "expected_chunk_ids": ["chunk_00032"],
+    "expected_chunks": [
+      "Threads launched in July 2023 as Meta's text-based conversation app, gaining 100 million users within five days of release."
+    ],
+    "difficulty": "easy",
+    "labels": ["recency", "specificity"]
+  },
+  {
+    "query": "When did OpenAI release GPT-4 and what new capabilities did it add?",
+    "expected_chunk_ids": ["chunk_00031"],
+    "expected_chunks": [
+      "OpenAI released GPT-4 in March 2023, offering improved reasoning, longer context windows, and multimodal capabilities including image understanding."
+    ],
+    "difficulty": "easy",
+    "labels": ["recency", "temporal"]
+  },
+  {
+    "query": "How does Duolingo make language learning engaging for mobile users?",
+    "expected_chunk_ids": ["chunk_00035"],
+    "expected_chunks": [
+      "Duolingo gamifies language learning with streak rewards, XP points, and bite-sized lessons designed for daily practice on mobile devices."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "enumeration"]
+  },
+  {
+    "query": "What handheld gaming devices allow playing existing PC game libraries?",
+    "expected_chunk_ids": ["chunk_00038"],
+    "expected_chunks": [
+      "The Steam Deck runs a custom Linux-based SteamOS, allowing users to play their existing PC game library as a handheld device."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "What mixed reality capabilities does the Meta Quest 3 offer?",
+    "expected_chunk_ids": ["chunk_00039"],
+    "expected_chunks": [
+      "Meta Quest 3 offers mixed reality capabilities, blending virtual content with the physical environment through color passthrough cameras."
+    ],
+    "difficulty": "easy",
+    "labels": ["factual", "technical"]
+  },
+  {
+    "query": "How do recommendation algorithms personalize content on both Netflix and Spotify?",
+    "expected_chunk_ids": ["chunk_00021", "chunk_00003"],
+    "expected_chunks": [
+      "Netflix's recommendation engine analyzes viewing patterns, completion rates, and user ratings to suggest personalized content.",
+      "Spotify's Discover Weekly playlist uses collaborative filtering to recommend songs based on listening history and similar users' preferences."
+    ],
+    "difficulty": "medium",
+    "labels": ["comparison", "multi_source"]
+  },
+  {
+    "query": "Compare the core survival mechanics between Minecraft and Fortnite gameplay.",
+    "expected_chunk_ids": ["chunk_00015", "chunk_00016"],
+    "expected_chunks": [
+      "Minecraft's survival mode challenges players to gather resources, craft tools, and build shelter before nightfall when hostile mobs spawn.",
+      "Fortnite's building mechanics enable players to construct walls, ramps, and structures instantly during combat for tactical advantages."
+    ],
+    "difficulty": "medium",
+    "labels": ["contrast", "comparison"]
+  },
+  {
+    "query": "Describe how generative AI assists with both visual and textual creative tasks.",
+    "expected_chunk_ids": ["chunk_00008", "chunk_00009", "chunk_00011"],
+    "expected_chunks": [
+      "ChatGPT utilizes transformer architecture to generate contextually relevant responses by predicting the next token in a sequence.",
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting.",
+      "Midjourney specializes in creating artistic and stylized images through Discord-based commands and iterative prompt refinement."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "multi_source"]
+  },
+  {
+    "query": "How do developers leverage AI coding assistants in their workflow?",
+    "expected_chunk_ids": ["chunk_00010", "chunk_00012"],
+    "expected_chunks": [
+      "GitHub Copilot suggests code completions by analyzing the current file context alongside patterns learned from millions of public repositories.",
+      "Claude Code assists developers by reading codebases, writing code, and executing terminal commands through a conversational interface."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "multi_source"]
+  },
+  {
+    "query": "How do TikTok and Instagram both determine what content to show users?",
+    "expected_chunk_ids": ["chunk_00001", "chunk_00000"],
+    "expected_chunks": [
+      "TikTok's recommendation algorithm analyzes user interactions like watch time, likes, and shares to personalize the For You page feed.",
+      "Instagram introduced Reels in August 2020 as a direct response to TikTok's growing popularity in short-form video content."
+    ],
+    "difficulty": "medium",
+    "labels": ["comparison", "multi_source"]
+  },
+  {
+    "query": "Compare how creators earn money across different streaming platforms.",
+    "expected_chunk_ids": ["chunk_00022", "chunk_00023", "chunk_00024"],
+    "expected_chunks": [
+      "YouTube creators qualify for monetization after reaching 1,000 subscribers and accumulating 4,000 watch hours within 12 months.",
+      "Twitch streamers earn revenue through channel subscriptions, bit donations, and advertisement breaks during live broadcasts.",
+      "Spotify pays artists between $0.003 and $0.005 per stream, with payments distributed through record labels and distributors."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "comparison"]
+  },
+  {
+    "query": "How do Minecraft and Fortnite differ in their building mechanics?",
+    "expected_chunk_ids": ["chunk_00015", "chunk_00016"],
+    "expected_chunks": [
+      "Minecraft's survival mode challenges players to gather resources, craft tools, and build shelter before nightfall when hostile mobs spawn.",
+      "Fortnite's building mechanics enable players to construct walls, ramps, and structures instantly during combat for tactical advantages."
+    ],
+    "difficulty": "medium",
+    "labels": ["contrast", "comparison"]
+  },
+  {
+    "query": "What's the difference between cloud-based and local AI image generators?",
+    "expected_chunk_ids": ["chunk_00013", "chunk_00009", "chunk_00011"],
+    "expected_chunks": [
+      "Stable Diffusion runs locally on consumer hardware, giving users full control over image generation without cloud dependencies.",
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting.",
+      "Midjourney specializes in creating artistic and stylized images through Discord-based commands and iterative prompt refinement."
+    ],
+    "difficulty": "medium",
+    "labels": ["contrast", "technical"]
+  },
+  {
+    "query": "How do Notion and Obsidian differ in where they store user data?",
+    "expected_chunk_ids": ["chunk_00033", "chunk_00034"],
+    "expected_chunks": [
+      "Notion combines note-taking, databases, and project management into a single workspace with customizable templates and real-time collaboration.",
+      "Obsidian stores notes as local markdown files with bidirectional linking, enabling users to build personal knowledge graphs without cloud dependencies."
+    ],
+    "difficulty": "medium",
+    "labels": ["contrast", "technical"]
+  },
+  {
+    "query": "What are the different content recommendation approaches used by streaming platforms?",
+    "expected_chunk_ids": ["chunk_00021", "chunk_00003", "chunk_00001"],
+    "expected_chunks": [
+      "Netflix's recommendation engine analyzes viewing patterns, completion rates, and user ratings to suggest personalized content.",
+      "Spotify's Discover Weekly playlist uses collaborative filtering to recommend songs based on listening history and similar users' preferences.",
+      "TikTok's recommendation algorithm analyzes user interactions like watch time, likes, and shares to personalize the For You page feed."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "comparison"]
+  },
+  {
+    "query": "Compare short-form video features across YouTube, TikTok, and Instagram.",
+    "expected_chunk_ids": ["chunk_00037", "chunk_00001", "chunk_00000"],
+    "expected_chunks": [
+      "YouTube Shorts launched in 2021 to compete with TikTok, offering creators a 60-second vertical video format with its own dedicated feed.",
+      "TikTok's recommendation algorithm analyzes user interactions like watch time, likes, and shares to personalize the For You page feed.",
+      "Instagram introduced Reels in August 2020 as a direct response to TikTok's growing popularity in short-form video content."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "comparison"]
+  },
+  {
+    "query": "How has Discord evolved beyond its original gaming focus?",
+    "expected_chunk_ids": ["chunk_00002", "chunk_00036"],
+    "expected_chunks": [
+      "Discord servers allow communities to organize communication through custom text channels, voice channels, and permission-based roles.",
+      "Discord expanded beyond gaming to serve educational institutions, study groups, and remote work teams through its server and channel structure."
+    ],
+    "difficulty": "medium",
+    "labels": ["synthesis", "evolution"]
+  },
+  {
+    "query": "Which platforms introduced features in 2020, and what common trend were they responding to?",
+    "expected_chunk_ids": ["chunk_00000", "chunk_00018"],
+    "expected_chunks": [
+      "Instagram introduced Reels in August 2020 as a direct response to TikTok's growing popularity in short-form video content.",
+      "Among Us became a cultural phenomenon in 2020, combining social deduction gameplay with simple tasks and emergency meetings."
+    ],
+    "difficulty": "medium",
+    "labels": ["temporal", "multi_source"]
+  },
+  {
+    "query": "Trace the evolution of ephemeral content features: which platform pioneered it, who copied it, and when did the major adoption happen?",
+    "expected_chunk_ids": ["chunk_00005"],
+    "expected_chunks": [
+      "Snapchat's Stories feature pioneered the 24-hour ephemeral content format that was later adopted by Instagram and Facebook."
+    ],
+    "difficulty": "medium",
+    "labels": ["reasoning", "temporal"]
+  },
+  {
+    "query": "Identify all platforms where creators can earn money, then explain which one pays the least per unit of content consumed.",
+    "expected_chunk_ids": ["chunk_00022", "chunk_00023", "chunk_00024"],
+    "expected_chunks": [
+      "YouTube creators qualify for monetization after reaching 1,000 subscribers and accumulating 4,000 watch hours within 12 months.",
+      "Twitch streamers earn revenue through channel subscriptions, bit donations, and advertisement breaks during live broadcasts.",
+      "Spotify pays artists between $0.003 and $0.005 per stream, with payments distributed through record labels and distributors."
+    ],
+    "difficulty": "hard",
+    "labels": ["reasoning", "comparison"]
+  },
+  {
+    "query": "Compare personalization approaches: which platforms use collaborative filtering versus other algorithmic methods, and what's the key difference in how they work?",
+    "expected_chunk_ids": ["chunk_00001", "chunk_00003", "chunk_00021"],
+    "expected_chunks": [
+      "TikTok's recommendation algorithm analyzes user interactions like watch time, likes, and shares to personalize the For You page feed.",
+      "Spotify's Discover Weekly playlist uses collaborative filtering to recommend songs based on listening history and similar users' preferences.",
+      "Netflix's recommendation engine analyzes viewing patterns, completion rates, and user ratings to suggest personalized content."
+    ],
+    "difficulty": "hard",
+    "labels": ["reasoning", "technical"]
+  },
+  {
+    "query": "What are the main AI tools for creative content generation and how do they differ in deployment (cloud vs local)?",
+    "expected_chunk_ids": ["chunk_00008", "chunk_00009", "chunk_00011", "chunk_00013"],
+    "expected_chunks": [
+      "ChatGPT utilizes transformer architecture to generate contextually relevant responses by predicting the next token in a sequence.",
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting.",
+      "Midjourney specializes in creating artistic and stylized images through Discord-based commands and iterative prompt refinement.",
+      "Stable Diffusion runs locally on consumer hardware, giving users full control over image generation without cloud dependencies."
+    ],
+    "difficulty": "hard",
+    "labels": ["synthesis", "contrast"]
+  },
+  {
+    "query": "Compare Minecraft, Fortnite, Roblox, and Valorant in terms of their creative and building features.",
+    "expected_chunk_ids": ["chunk_00015", "chunk_00016", "chunk_00017", "chunk_00019"],
+    "expected_chunks": [
+      "Minecraft's survival mode challenges players to gather resources, craft tools, and build shelter before nightfall when hostile mobs spawn.",
+      "Fortnite's building mechanics enable players to construct walls, ramps, and structures instantly during combat for tactical advantages.",
+      "Roblox Studio empowers users to create custom games using Lua scripting and publish them to the platform's marketplace.",
+      "Valorant combines precise gunplay mechanics with unique agent abilities, requiring both mechanical skill and strategic team coordination."
+    ],
+    "difficulty": "hard",
+    "labels": ["synthesis", "contrast"]
+  },
+  {
+    "query": "What AI tools are available for different use cases like text, images, code, and writing assistance?",
+    "expected_chunk_ids": ["chunk_00008", "chunk_00009", "chunk_00010", "chunk_00014"],
+    "expected_chunks": [
+      "ChatGPT utilizes transformer architecture to generate contextually relevant responses by predicting the next token in a sequence.",
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting.",
+      "GitHub Copilot suggests code completions by analyzing the current file context alongside patterns learned from millions of public repositories.",
+      "Grammarly uses natural language processing to detect grammar errors, suggest style improvements, and check for plagiarism in real-time."
+    ],
+    "difficulty": "hard",
+    "labels": ["synthesis", "enumeration"]
+  },
+  {
+    "query": "What are the main AI image generators and how does each one create images?",
+    "expected_chunk_ids": ["chunk_00040", "chunk_00009", "chunk_00011", "chunk_00013"],
+    "expected_chunks": [
+      "The three major AI image generators are DALL-E, Midjourney, and Stable Diffusion. Each takes a different approach to creating images from text descriptions.",
+      "DALL-E 3 generates images from text prompts by understanding complex concepts including artistic styles, composition, and lighting.",
+      "Midjourney specializes in creating artistic and stylized images through Discord-based commands and iterative prompt refinement.",
+      "Stable Diffusion runs locally on consumer hardware, giving users full control over image generation without cloud dependencies."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names 3 tools - agent must follow up on DALL-E, Midjourney, Stable Diffusion to get details on each"
+  },
+  {
+    "query": "How can content creators monetize their work, and what are the specific requirements or payment rates for each platform?",
+    "expected_chunk_ids": ["chunk_00041", "chunk_00022", "chunk_00023", "chunk_00024"],
+    "expected_chunks": [
+      "Content creators can monetize their work on YouTube, Twitch, and Spotify. Each platform offers different revenue models and requirements for creators.",
+      "YouTube creators qualify for monetization after reaching 1,000 subscribers and accumulating 4,000 watch hours within 12 months.",
+      "Twitch streamers earn revenue through channel subscriptions, bit donations, and advertisement breaks during live broadcasts.",
+      "Spotify pays artists between $0.003 and $0.005 per stream, with payments distributed through record labels and distributors."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names YouTube, Twitch, Spotify - agent must retrieve details for each platform's monetization model"
+  },
+  {
+    "query": "What are the major short-form video platforms, and how does each platform's algorithm or feature work?",
+    "expected_chunk_ids": ["chunk_00042", "chunk_00001", "chunk_00000", "chunk_00037"],
+    "expected_chunks": [
+      "Short-form vertical video has become dominant through TikTok, Instagram Reels, and YouTube Shorts. Each platform has adapted this format differently.",
+      "TikTok's recommendation algorithm analyzes user interactions like watch time, likes, and shares to personalize the For You page feed.",
+      "Instagram introduced Reels in August 2020 as a direct response to TikTok's growing popularity in short-form video content.",
+      "YouTube Shorts launched in 2021 to compete with TikTok, offering creators a 60-second vertical video format with its own dedicated feed."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names TikTok, Instagram Reels, YouTube Shorts - agent must retrieve details for each"
+  },
+  {
+    "query": "What AI tools help developers write code, and how does each one work?",
+    "expected_chunk_ids": ["chunk_00043", "chunk_00010", "chunk_00012"],
+    "expected_chunks": [
+      "AI coding assistants like GitHub Copilot and Claude Code help developers write code faster by understanding context and suggesting completions.",
+      "GitHub Copilot suggests code completions by analyzing the current file context alongside patterns learned from millions of public repositories.",
+      "Claude Code assists developers by reading codebases, writing code, and executing terminal commands through a conversational interface."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names GitHub Copilot and Claude Code - agent must retrieve details for each"
+  },
+  {
+    "query": "What are the popular note-taking apps and how do they differ in their approach to data storage?",
+    "expected_chunk_ids": ["chunk_00044", "chunk_00033", "chunk_00034"],
+    "expected_chunks": [
+      "Popular productivity apps for note-taking include Notion and Obsidian. They represent different philosophies: cloud-first collaboration vs local-first ownership.",
+      "Notion combines note-taking, databases, and project management into a single workspace with customizable templates and real-time collaboration.",
+      "Obsidian stores notes as local markdown files with bidirectional linking, enabling users to build personal knowledge graphs without cloud dependencies."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names Notion and Obsidian - agent must retrieve details for each to explain the difference"
+  },
+  {
+    "query": "What are the top competitive multiplayer games, and what skills does each game require?",
+    "expected_chunk_ids": ["chunk_00045", "chunk_00019", "chunk_00016"],
+    "expected_chunks": [
+      "Competitive multiplayer games like Valorant and Fortnite require different skills. Valorant emphasizes precise aim while Fortnite combines shooting with building.",
+      "Valorant combines precise gunplay mechanics with unique agent abilities, requiring both mechanical skill and strategic team coordination.",
+      "Fortnite's building mechanics enable players to construct walls, ramps, and structures instantly during combat for tactical advantages."
+    ],
+    "difficulty": "agentic",
+    "labels": ["multi_hop", "hub_expansion"],
+    "note": "Hub chunk names Valorant and Fortnite - agent must retrieve details for each game's mechanics"
+  }
+]
