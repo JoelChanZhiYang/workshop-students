@@ -34,7 +34,7 @@ async def generate_without_retrieval(question: str) -> str:
 async def generate_with_retrieval(question: str, chunks: dict) -> str:
     """Use RAG: retrieve relevant context, then generate."""
     result = await generate(question, chunks)
-    return result.answer
+    return result
 
 
 async def main():
